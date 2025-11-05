@@ -29,7 +29,7 @@ setEditId(null);
 if (loading) return <h3 className="text-center text-xl mt-10">Loading...</h3>;
 if (error) return <h3 className="text-center text-red-500 mt-10">Error: {error}</h3>;
 
-return ( <div className="max-w-3xl mx-auto p-6"> <h2 className="text-2xl font-bold text-center mb-6">User CRUD (Redux Toolkit)</h2>
+return ( <div className="max-w-3xl mx-auto p-6"> <h2 className="text-2xl font-bold text-center mb-6 text-red-500">User CRUD (Redux Toolkit)</h2>
 
   {/* Add User Form */}
   <div className="bg-white shadow-md rounded-lg p-4 mb-8 flex flex-col sm:flex-row gap-3">
